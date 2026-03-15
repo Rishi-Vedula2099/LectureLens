@@ -65,8 +65,8 @@ export default function DashboardPage() {
 
   return (
     <div style={{ minHeight: "100vh", background: C.bg, display: "flex", flexDirection: "column" }}>
-      <ExportPanel isOpen={showExport} onClose={() => setShowExport(false)} videoTitle="Backend Architecture" />
-      <FocusMode isOpen={showFocus} onClose={() => setShowFocus(false)} />
+      <ExportPanel isOpen={showExport} onCloseAction={() => setShowExport(false)} videoTitle="Backend Architecture" />
+      <FocusMode isOpen={showFocus} onCloseAction={() => setShowFocus(false)} />
 
       {/* ── Top Nav ─────────────────────────────────────────────── */}
       <header style={{
