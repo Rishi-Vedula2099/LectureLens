@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+pip_out.txt
+
+# Environment variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+.npm
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
