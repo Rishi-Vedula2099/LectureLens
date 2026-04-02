@@ -1,4 +1,4 @@
-# 🔭 LectureLens AI
+# 🔭 LectureLens 
 
 **Transform Any Video into Structured Knowledge.**
 
