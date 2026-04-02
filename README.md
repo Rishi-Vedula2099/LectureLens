@@ -61,8 +61,9 @@ LectureLens isn't just a tool; it's a sensory experience.
 - Node.js 18+
 - Python 3.10+
 - OpenAI API Key
+- Docker and Docker Compose (Optional)
 
-### Installation
+### Standard Installation
 
 1. **Clone the repo**
    ```bash
@@ -81,6 +82,27 @@ LectureLens isn't just a tool; it's a sensory experience.
    cd backend
    pip install -r requirements.txt
    uvicorn app.main:app --reload
+   ```
+
+### 🐳 Docker Deployment
+
+The simplest way to run both the frontend and backend together is using Docker Compose.
+
+1. **Clone the repo and configure your secrets:**
+   ```bash
+   git clone https://github.com/Rishi-Vedula2099/LectureLens.git
+   ```
+   Ensure you copy `.env.example` to `.env` in both `frontend` and `backend` folders and populate your API keys.
+
+2. **Run Docker Compose:**
+   ```bash
+   docker-compose up --build -d
+   ```
+   The application will be accessible at `http://localhost:3000`. Backend API routes are properly proxied within the Next.js Docker configuration.
+
+3. **Stop the environment:**
+   ```bash
+   docker-compose down
    ```
 
 ---
