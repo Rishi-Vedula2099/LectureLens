@@ -93,4 +93,4 @@ LectureLens isn't just a tool; it's a sensory experience.
 
 ---
 
-Developed with ❤️ by the LectureLens Team.
+
